@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: table;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5em;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  animation: wip 4s;
+}
+
+@keyframes wip {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
