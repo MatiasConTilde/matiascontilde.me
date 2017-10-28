@@ -8,15 +8,24 @@ html, body {
 }
 
 h1 {
+  /* DISCLAIMER */
+  /* Comic Sans MS <b>is a joke</b> */
+  /* I DO NOT LIKE COMIC SANS AND I THINK IT IS AN AWFUL FONT */
+  /* If you see this in Comic Sans you should probably delete it from your computer */
+
   font-family: 'Comic Sans MS', 'Roboto', sans-serif;
   font-size: 5em;
   text-align: center;
   vertical-align: middle;
   display: table-cell;
-  animation: wip 4s;
+  animation: fade 4s ease both;
 }
 
-@keyframes wip {
+.github-corner {
+  animation: fade 3s 1s ease both;
+}
+
+@keyframes fade {
   0% {
     opacity: 0;
   }
